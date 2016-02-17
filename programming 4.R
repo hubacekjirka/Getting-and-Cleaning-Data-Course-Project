@@ -2,6 +2,7 @@ rm(list=ls(all=TRUE))
 library(dplyr)
 ### Environment specific variables
 setwd("C:/OneDrive/Documents/Coursera/Cleaning and processing data/UCI HAR Dataset/")
+###### This was very unfortunate idea to hardcode the column indicies (facepalm) #####
 featureVectorIndexes <- c(
         1:6,
         41:46,
